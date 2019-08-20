@@ -1,3 +1,5 @@
+import spock.lang.Specification
+
 /*
  * Copyright 2010 the original author or authors.
  *
@@ -11,8 +13,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
-import spock.lang.*
 
 /**
  * The expected order of interactions can now be specified by using multiple

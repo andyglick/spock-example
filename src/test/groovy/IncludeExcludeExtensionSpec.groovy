@@ -12,9 +12,12 @@
  * limitations under the License.
  */
 
-import java.lang.annotation.*
-
 import spock.lang.Specification
+
+import java.lang.annotation.ElementType
+import java.lang.annotation.Retention
+import java.lang.annotation.RetentionPolicy
+import java.lang.annotation.Target
 
 /**
  * Shows how methods can be included and excluded from a spec run. For

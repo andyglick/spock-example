@@ -1,3 +1,6 @@
+import spock.lang.Specification
+import spock.lang.Stepwise
+
 /*
  * Copyright 2010 the original author or authors.
  *
@@ -11,8 +14,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
-import spock.lang.*
 
 /**
  * Demonstrates how {@code @Stepwise} causes a spec to be run in incremental steps.
